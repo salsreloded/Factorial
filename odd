@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+int no,i,m;
+cin>>no;
+while(no--)
+{
+cin>>i;
+ m=1;
+while(m<=i)
+{        
+         m=m*2;
+}
+cout<<m/2<<endl;
+}
+}
+
+
+
